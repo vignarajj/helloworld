@@ -1,6 +1,8 @@
 //need to import package for accessing the libs
 import 'package:helloworld/helloworld.dart' as hello;
 import 'package:helloworld/Utils.dart' as util;
+import 'dart:math' as math;
+
 
 main(List<String> arguments) {
   var expressName = hello.tellyourName("manoj");
@@ -13,5 +15,10 @@ main(List<String> arguments) {
 
   var employeeAge = util.calculateAge(employee.bornYear);
   print("Employees current age is $employeeAge");
+
+  var findMax = math.max(20, 19);
+  print(findMax);
+
+  print(math.sqrt(256));
 
 }
